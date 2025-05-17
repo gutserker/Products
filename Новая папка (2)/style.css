@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4536ff, #a23cc3);
+  padding: 40px;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  padding: 20px;
+  color: black;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.desc {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+}
+
+
+.gray   { background: #d6d6d6; }
+.blue   { background: #6ec1ff; }
+.purple { background: #cb9eff; }
+.pink   { background: #ffb0dc; }
+.teal   { background: #b0fff9; }
+.green  { background: #98ffa4; }
+
+.gray .footer button   { background: #999; }
+.blue .footer button   { background: #ffcc00; }
+.purple .footer button { background: #00e2c2; }
+.pink .footer button   { background: #ffec00; }
+.teal .footer button   { background: #00e2c2; }
+.green .footer button  { background: #ffcc00; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 300px;
+  max-width: 320px;
+  min-width: 250px;
+  box-sizing: border-box;
+}
